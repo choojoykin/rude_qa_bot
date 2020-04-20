@@ -150,7 +150,7 @@ class BotUtils:
             user=user,
             message=message,
             duration=duration,
-            command=Command.RO
+            command=Command.RO,
         )
 
         self._bot.restrict_chat_member(
@@ -170,7 +170,7 @@ class BotUtils:
             user=user,
             message=message,
             duration=duration,
-            command=Command.TO
+            command=Command.TO,
         )
 
         self._bot.restrict_chat_member(
